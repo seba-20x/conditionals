@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- border -->
+    <img class="style-star" src="./assets/img/star.jpeg" alt="star">
+
+    <!-- stickers -->
+    <p class="count">Puedes llevar hasta 10 stickers en total</p>
+    <div class="sticker-container">
+        <div class="image-input">
+            <img class="stickers" src="https://img.kwcdn.com/product/open/2023-10-16/1697470834559-a2153b113a614fedab782123a21e8592-goods.jpeg" alt="">
+            <input id="st1" type="number" min="0" placeholder="Cuantos stickers quieres">
+        </div>
+    
+        <div class="image-input">
+            <img class="stickers" src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/07f4d9a94406a8a73393f471c12af590.jpg" alt="">
+            <input id="st2" type="number" min="0" placeholder="Cuantos stickers quieres">
+        </div>
+    
+        <div class="image-input">
+            <img class="stickers" src="https://img.kwcdn.com/product/open/2023-09-07/1694070529658-555518ae7d16460091a903ef23d3e909-goods.jpeg" alt="">
+            <input id="st3" type="number" min= "0" placeholder="Cuantos stickers quieres">
+        </div>
+        
+    </div>
+    
+    <p class="count"> Total <span id="count"> 0 </span> stickers </p>
+    <button id="btn"> Verificar</button>
+
+    <!-- digit selects  -->
+
+    <br>
+    
+    <label class="count" for="pass-secret-1">Ingresa el password:</label>
+    <br>
+    <div class="count">
+
+        <select name="password" id="pass-secret-1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+
+        <select name="password" id="pass-secret-2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+            
+        <select name="password" id="pass-secret-3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+
+        
+    </div>
+    <br>
+    <p id="mensaje" class="count"></p>
+    <button id="enterPass">Ingresar</button>
+    
+
+    <script src="./assets/script.js"></script>
+
+</body>
+</html>
